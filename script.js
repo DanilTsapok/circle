@@ -1,13 +1,6 @@
-
-
-
-    const div = document.createElement('div');
-    div.innerHTML = '<p>CreateElement example</p>';
-    document.body.appendChild(div);
-
-    
-    function ran()
-    {let answers = ['Так', 'Ні']
+function ran()
+    {
+        let answers = ['Так', 'Ні', 'Напевно']
         let question = document.getElementById('question').value
         if(  question.includes('@') || question.includes('#')||!question.includes('?'))
         {
