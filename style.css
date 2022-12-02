@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background:url('jin.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background:blue;
+ 
 }
 .circle{
     
